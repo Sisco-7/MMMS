@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Registration Form</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <div class="logo">
+      <h1>Mega Mind Model School</h1>
+    </div>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About Us</a></li>
+        <li><a href="contact.html">Contact</a></li>
+        <li><a href="Registration form.html">Register</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero">
+  <h2>Student Registration Form</h2>
+  
+  <form action="https://formspree.io/f/xeoovjlv" method="POST" id="registrationForm">
+    <!-- Personal Information Section -->
+    <fieldset>
+      <legend>Personal Information</legend>
+      
+      <label for="firstName">First Name:</label>
+      <input type="text" id="firstName" name="firstName" required>
+      
+      <label for="lastName">Last Name:</label>
+      <input type="text" id="lastName" name="lastName" required>
+      
+      <label for="middleName">Middle Name:</label>
+      <input type="" id="middleName" name="middleName" required>
+
+      <label for="dob">Date of Birth:</label>
+      <input type="date" id="dob" name="dob" required>
+      
+      <label for="gender">Gender:</label>
+      <input type="gender" id="gender" name="gender"  required>
+
+      <label for="religion">Religion:</label>
+      <input type="text" id="religion" name="religion" required>
+      </select>
+    </fieldset>
+    
+    <!-- Contact Information Section -->
+    <fieldset>
+      <legend>Contact Information</legend>
+      
+      <label for="email">Email Address:</label>
+      <input type="email" id="email" name="email" required>
+      
+      <label for="phone">Phone Number:</label>
+      <input type="tel" id="phone" name="phone" required placeholder="e.g., +2348012345678">
+      
+      <label for="address">Address:</label>
+      <textarea id="address" name="address" rows="5" required></textarea>
+    </fieldset>
+    
+    <!-- Academic Information Section -->
+    <fieldset>
+      <legend>Academic Information</legend>
+      
+      <label for="class">Class:</label>
+      <select id="class" name="class" required>
+        <option value="" disabled selected><b>Select Class</b></option>
+        <option value="Nursery">Nursery</option>
+        <option value="Primary">Primary</option>
+        <option value="Junior Secondary">Junior Secondary</option>
+        <option value="Senior Secondary">Senior Secondary</option>
+      </select>
+      
+      <label for="previousSchool">Previous School (if any):</label>
+      <input type="text" id="previousSchool" name="previousSchool">
+      
+      <label for="guardian">Parent/Guardian's Name:</label>
+      <input type="text" id="guardian" name="guardian" required>
+      
+      <label for="guardianPhone">Parent/Guardian's Phone:</label>
+      <input type="tel" id="guardianPhone" name="guardianPhone" required>
+    </fieldset>
+    
+    <!-- Additional Preferences Section -->
+    <fieldset>
+      <legend>Additional Information</legend>
+      
+      <label for="comments">Comments/Remarks:</label>
+      <textarea id="comments" name="comments" rows="5" placeholder="Feel free to add any additional information or special needs"></textarea>
+    </fieldset>
+    
+    <!-- Submit Button -->
+    <button type="submit">Register</button>
+  </form>
+  
+  <script src="script.js"></script>
+
+  <footer>
+    <div class="social-links">
+      <a href="https://facebook.com" target="_blank">Facebook</a>
+      <a href="https://instagram.com" target="_blank">Instagram</a>
+      <a href="https://tiktok.com" target="_blank">TikTok</a>
+      <a href="https://wa.me/2348034944928" target="_blank">WhatsApp</a>
+      <a href="mailto:megamindmodelschool1@gmail.com" target="_blank">Gmail</a>
+      <a href="tel:2348134981551">Call Us</a>
+    </div>
+    <p>&copy; 2009 Mega Mind Model School. All Rights Reserved.</p>
+  </footer>
+</body>
+</html>

@@ -1,0 +1,306 @@
+/* General styles */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    color: #333;
+  }
+  
+  header {
+    background-color: #002147; /* Deep Blue */
+    color: white;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  header .logo h1 {
+    margin: 0;
+    font-size: 2em;
+  }
+  
+  nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    background-color: #ff69b4; /* Pink */
+  }
+  
+  nav ul li {
+    margin: 0 15px;
+  }
+  
+  nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    padding: 10px 20px;
+    display: inline-block;
+  }
+  
+  nav ul li a:hover {
+    background-color: white;
+    color: #002147; /* Deep Blue */
+    border-radius: 5px;
+  }
+  
+  /* Hero Section */
+  .hero {
+    text-align: center;
+    padding: 50px 20px;
+    background-color: #ff69b4; /* Pink */
+    color: white;
+  }
+  
+  .hero h2 {
+    font-size: 2.5em;
+  }
+  
+  .hero p {
+    font-size: 1.2em;
+  }
+  
+  /* Features Section */
+  .features {
+    padding: 20px;
+    background-color: #f4f4f4;
+  }
+  
+  .features h2 {
+    text-align: center;
+    color: #002147; /* Deep Blue */
+  }
+  
+  .feature-card {
+    margin: 20px auto;
+    padding: 20px;
+    background-color: white;
+    border: 2px solid #ff69b4; /* Pink */
+    border-radius: 10px;
+    width: 90%;
+    max-width: 600px;
+    text-align: center;
+  }
+  
+  .feature-card h3 {
+    color: #002147; /* Deep Blue */
+  }
+  
+  /* Contact Form */
+  .contact-form {
+    padding: 20px;
+    text-align: center;
+    background-color: #f4f4f4;
+  }
+  
+  .contact-form h2 {
+    color: #002147; /* Deep Blue */
+  }
+  
+  .contact-form form {
+    margin: 0 auto;
+    width: 90%;
+    max-width: 600px;
+    background-color: white;
+    padding: 20px;
+    border: 2px solid #ff69b4; /* Pink */
+    border-radius: 10px;
+  }
+  
+  .contact-form label {
+    display: block;
+    margin: 10px 0 5px;
+    font-weight: bold;
+  }
+  
+  .contact-form input,
+  .contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1em;
+  }
+  
+  .contact-form button {
+    background-color: #ff69b4; /* Pink */
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1.2em;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  .contact-form button:hover {
+    background-color: #002147; /* Deep Blue */
+  }
+  
+  /* Footer */
+  footer {
+    text-align: center;
+    background-color: #002147; /* Deep Blue */
+    color: white;
+    padding: 20px;
+  }
+  
+  footer .social-links a {
+    margin: 0 10px;
+    text-decoration: none;
+    color: #ff69b4; /* Pink */
+    font-weight: bold;
+  }
+  
+  footer .social-links a:hover {
+    color: white;
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    nav ul {
+      flex-direction: column;
+    }
+  
+    .hero h2 {
+      font-size: 2em;
+    }
+  
+    .contact-form form {
+      width: 100%;
+    }
+  }
+  
+  form {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+  }
+  
+  form label {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bold;
+    color: #002147; /* Deep Blue */
+  }
+  
+  form input,
+  form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  form button {
+    background-color: #ff69b4; /* Pink */
+    color: #1a1c4f;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  form button:hover {
+    background-color: #e05696; /* Slightly darker pink for hover */
+  }
+  
+  #formResponse {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 16px;
+  }
+  /* Registration Form Styles */
+form#registrationForm {
+  max-width: 700px;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: #fff;
+  border: 2px solid #ff69b4; /* Pink border */
+  border-radius: 12px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+form#registrationForm fieldset {
+  border: 1px solid #002147; /* Deep Blue border */
+  border-radius: 8px;
+  padding: 15px;
+  margin-bottom: 20px;
+  background-color: #f9f9f9;
+}
+
+form#registrationForm legend {
+  font-size: 1.2em;
+  font-weight: bold;
+  color: #002147; /* Deep Blue text */
+}
+
+form#registrationForm label {
+  font-weight: bold;
+  color: #002147; /* Deep Blue text */
+  display: block;
+  margin-bottom: 5px;
+}
+
+form#registrationForm input,
+form#registrationForm textarea,
+form#registrationForm select {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 1em;
+}
+
+form#registrationForm input:focus,
+form#registrationForm textarea:focus,
+form#registrationForm select:focus {
+  border-color: #ff69b4; /* Pink focus effect */
+  outline: none;
+  box-shadow: 0 0 5px rgba(255, 105, 180, 0.5); /* Pink glow */
+}
+
+form#registrationForm button {
+  background-color: #002147; /* Deep Blue button */
+  color: #ff00d9;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 5px;
+  font-size: 1.1em;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+form#registrationForm button:hover {
+  background-color: #ff69b4; /* Pink hover effect */
+  transform: scale(1.05);
+}
+
+form#registrationForm button:active {
+  transform: scale(1);
+  box-shadow: inset 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  form#registrationForm {
+    padding: 15px;
+  }
+
+  form#registrationForm legend {
+    font-size: 1em;
+  }
+
+  form#registrationForm button {
+    font-size: 1em;
+  }
+}
+
+  
